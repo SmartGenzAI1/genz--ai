@@ -25,8 +25,8 @@ A fast, modern AI chat application with multiple model support, built with Next.
 ### 1. Clone and Install
 
 ```bash
-git clone https://github.com/yourusername/genz-ai.git
-cd genz-ai
+git clone https://github.com/SmartGenzAI1/genz--ai.git
+cd genz--ai
 npm install
 ```
 
@@ -80,10 +80,10 @@ Open [http://localhost:3000](http://localhost:3000)
 | `HF_API_KEY` | No | HuggingFace token from [huggingface.co/settings/tokens](https://huggingface.co/settings/tokens) |
 | `OPENROUTER_API_KEY` | No | OpenRouter key from [openrouter.ai/keys](https://openrouter.ai/keys) |
 | `SEARCH_API_KEY` | No | Serper API key from [serper.dev](https://serper.dev) |
-| `NEXT_PUBLIC_YOUTUBE_URL` | No | Your YouTube channel URL |
-| `NEXT_PUBLIC_INSTAGRAM_URL` | No | Your Instagram profile URL |
-| `NEXT_PUBLIC_GITHUB_URL` | No | Your GitHub profile URL |
-| `NEXT_PUBLIC_WEBSITE_URL` | No | Your personal website URL |
+| `NEXT_PUBLIC_YOUTUBE_URL` | No | our YouTube channel URL |
+| `NEXT_PUBLIC_INSTAGRAM_URL` | No | our Instagram profile URL |
+| `NEXT_PUBLIC_GITHUB_URL` | No | our GitHub profile URL |
+| `NEXT_PUBLIC_WEBSITE_URL` | No | our personal website URL |
 
 *At least one AI provider key is required
 
@@ -113,7 +113,7 @@ If the primary provider fails (rate limit, API error, etc.), the app automatical
 
 Users can add their own API keys in **Settings > API Keys**. These are:
 - Stored in browser localStorage only
-- Never sent to your server (only to the respective API providers)
+- Never sent to our server (only to the respective API providers)
 - Take priority over server-side keys
 - Enable unlimited usage
 
@@ -235,7 +235,7 @@ When AI generates code, it's displayed with:
 ## Rate Limiting
 
 - Default: 70 requests/day per user
-- Stored in localStorage
+- Stored in localStorage (we will edit this later as per need inc. or dec.)
 - Resets at midnight (local time)
 - Shows remaining requests in UI
 
@@ -245,6 +245,7 @@ When AI generates code, it's displayed with:
 - Firefox (latest)
 - Safari (latest)
 - Mobile browsers (iOS Safari, Chrome Android)
+- we can aloso make to apk 
 
 ## Contributing
 
